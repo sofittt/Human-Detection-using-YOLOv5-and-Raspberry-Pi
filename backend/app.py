@@ -62,7 +62,7 @@ def get_latest_image(request: Request):
 
 
 if __name__ == "__main__":
-    model = torch.hub.load('ultralytics/yolov5', 'yolov5s', force_reload=True)
+    model = torch.hub.load('ultralytics/yolov5', 'yolov5s', force_reload=True, trust_repo=True)
     PERSON_CLASS_LABEL = 0
     model.classes = [PERSON_CLASS_LABEL]
     model.conf = 0.45
