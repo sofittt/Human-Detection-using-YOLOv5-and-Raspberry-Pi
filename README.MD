@@ -1,22 +1,19 @@
-# Human Detection using YOLOv5 and Raspberry Pi
-
-A project that detects humans in real-time using a Raspberry Pi camera and YOLOv5 object detection model. The project consists of two parts: camera module and backend server.
+# Detección de Humanos con YOLO v5
 
 ## Getting Started
 
-These instructions will guide you through the process of setting up and running the project.
+A continuación se detalla una guia para poder intalar y correr el programa.
 
-## Installation
+## Instalación
 
-- Clone the repository
-- Navigate to the camera_module directory and follow the instructions in the README file to run the camera module
-- Navigate to the backend directory and follow the instructions in the README file to run the backend server.
+- Clonar el repositorio de GITHUB
+- Vas a la pestaña de camera_module, abris el archivo README y seguis las intrucciones
+- Vas a la pestaña de backend, abris el archivo README y seguis las intrucciones.
 
-## Usage
+## Forma de trabajo del software 
 
-The camera module takes photos at a specified interval and sends the images to the backend server. The backend server processes the images using YOLOv5 to detect humans and sends the result back to the client as a base64 encoded HTML file with server-side rendering. The HTML file includes the timestamp and the processed image.
+El módulo de cámara toma fotos en un intervalo especificado y envía las imágenes al servidor backend. El servidor backend procesa las imágenes usando YOLOv5 para detectar humanos y envía el resultado al cliente como un archivo HTML codificado en base64 con renderizado del lado del servidor. El archivo HTML incluye la marca de tiempo y la imagen procesada.
 
-## Acknowledgments
+## Reconocimientos
 
 - YOLOv5 object detection model by [Ultralytics LLC](https://github.com/ultralytics/yolov5)
-- [Raspberry Pi Foundation](https://www.raspberrypi.org/)

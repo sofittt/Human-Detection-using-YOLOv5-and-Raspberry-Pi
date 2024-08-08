@@ -1,4 +1,5 @@
 ## in order to replicate:
 
-- install dependencies by executing `pip3 install -r requirements.txt`
-- then the module can be executed by `python3 app.py`
+- Instalar las dependencias del archivo "requirements.txt" ejecutando `pip3 install -r ruta-al-archivo\requirements.txt`
+- Despues podes ejecutar  `python3 app.py` en la terminal de PYCHARM
+- la ruta-al-archivo te conviene posicionarte sobre el archivo requirements.txt, click derecho y presionas "Copy Path/Reference" y ahi apretas absolute path
