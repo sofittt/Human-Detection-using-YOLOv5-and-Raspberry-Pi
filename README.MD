@@ -9,6 +9,8 @@ A continuación se detalla una guia para poder intalar y correr el programa.
 - Clonar el repositorio de GITHUB
 - Vas a la pestaña de camera_module, abris el archivo README y seguis las intrucciones
 - Vas a la pestaña de backend, abris el archivo README y seguis las intrucciones.
+- Una vez que tenes todas las dependencias instaladas te vas a los archivos, app.py e camera_module.py y los corres en el de app.py te tira unos warning pero no hay problema y despues al final te tira la direccion del sitio web que es http://0.0.0.0:8000 en esta direccion cambia el 0.0.0.0 por la ip de tu computadora.
+
 
 ## Forma de trabajo del software 
 
