@@ -40,7 +40,7 @@ def arg_parser() -> argparse.Namespace:
                         help="time difference between images in seconds.",
                         default=10)
     parser.add_argument("port", type=int, nargs="?",
-                        help="camera port to be used.", default=0)
+                        help="camera port to be used.", default=2)
     opt: argparse.Namespace = parser.parse_args()
     return opt
 
